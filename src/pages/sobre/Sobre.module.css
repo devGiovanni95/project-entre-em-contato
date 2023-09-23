@@ -1,0 +1,9 @@
+.text{
+  color: aliceblue;
+}
+.nav{
+  display: flex;
+  align-items: space-between;
+  justify-content:center;
+  text-align:center;
+}

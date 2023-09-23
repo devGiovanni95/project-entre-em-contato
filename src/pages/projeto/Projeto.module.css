@@ -1,0 +1,14 @@
+.text{
+  color: aliceblue;
+}
+.nav{
+  display: flex;
+  align-items: space-between;
+}
+
+.display{  
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,7 @@
+body{
+    color: aliceblue;
+}
+.nav{
+    display: flex;
+    align-items: space-between;
+  }

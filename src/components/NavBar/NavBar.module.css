@@ -1,0 +1,19 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    margin: 10px 10px;
+    background-color: #1b6278;
+
+    width: 80vh;
+    padding: 10px;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+
+.esp{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: aliceblue;
+}

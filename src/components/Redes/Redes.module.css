@@ -1,0 +1,25 @@
+.card{
+    width:35px;
+    height:35px;
+}
+
+.container{
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    align-items: center;
+    alignItems: center;
+}
+
+img{
+    flex-direction:start;
+    margin: 0 25px 0 0; 
+    justify-content:center;
+    text-align: center;
+}
+.principal{
+    display:flex;
+    flex-direction:center;
+    align-items:center;
+    justify-content:center;
+}
