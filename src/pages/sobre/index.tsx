@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import styles from './Sobre.module.css'
 import NavBar from '../../components/NavBar'
 import Redes from '../../components/Redes'
