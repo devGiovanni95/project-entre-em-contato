@@ -1,18 +1,13 @@
-import styles from './Sobre.module.css'
-import NavBar from '../../components/NavBar'
 import Redes from '../../components/Redes'
+import Layout from '../../components/Layout'
 export default function Sobre(){
     return(
-        <>
-    <div>
-      <NavBar />
-    </div>
-    <br/>
-            <h1 className={styles.text}>Sobre o desenvolvedor</h1>
+        <Layout>
+            <h1 >Sobre o desenvolvedor</h1>
             <br/><br/>
             <hr />
             <br/><br/>
-            <p className={styles.text}>
+            <p >
                 O projeto foi desenvolvido com intuito de aprimorar os conhecimentos do desenvolvedor <br/>
                 criando assim um projeto que pudesse ser amplamente utilizado por qualquer pessoa<br/>
                 que queira organizar o dia-a-dia podendo listar todos os seus afazeres no dia. <br/>  
@@ -23,6 +18,6 @@ export default function Sobre(){
             <br />
             <br />
             <Redes texto='GitHub' href='https://github.com/devGiovanni95' img='./../../public/github.png'/>
-        </>
+        </Layout>
     )
 }

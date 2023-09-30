@@ -1,4 +1,3 @@
-import style from './Redes.module.css'
 interface Props {
   href: string;
   texto: string;
@@ -8,10 +7,10 @@ interface Props {
 export default function Redes({ href, texto, img }: Props) {
   return (
     <>
-      <div className={style.principal}>
+      <div >
         <a href={href}>
-          <button className={style.container}>
-            <img className={style.card} src={img} alt="" />
+          <button >
+            <img  src={img} alt="" />
             {texto}
           </button>
         </a>
