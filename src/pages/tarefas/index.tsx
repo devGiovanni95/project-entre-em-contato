@@ -1,13 +1,35 @@
+import { Center, Divider, Stack } from "@chakra-ui/react";
 import InputPersonalidade from "../../components/Input";
 import Layout from "../../components/Layout";
-import Item from "../../components/Tarefa";
+import Item from "../../components/ItemTarefa";
+import { Heading} from '@chakra-ui/react'
 
 
 export default function Tarefas() {
   return (
     <Layout>
-      <InputPersonalidade/>
-      <Item/>
+      <Stack spacing={3} textAlign="center" mb="20px">
+        <Heading fontSize='4xl'>Lista de tarefas </Heading>
+      </Stack>
+
+      <Center>
+        <Divider width="50%"  fontWeight="extrabold" mb="20px"/>
+      </Center>
+        
+      <InputPersonalidade margin="20px"/>
+
+      <Center>
+        <Divider  width="50%"  fontWeight="200" mb="20px" />
+      </Center>
+
+      <Item tarefa="Tarefa 1"/>
+      <Item tarefa="Tarefa 2"/>
+      <Item tarefa="Tarefa 3"/>
+      <Item tarefa="Tarefa 4"/>
+      <Item tarefa="Tarefa 5"/>
+      <Item tarefa="Tarefa 6"/>
+
+
     </Layout>
   );
 }
